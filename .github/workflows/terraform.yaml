@@ -18,11 +18,11 @@ jobs:
 
     - name: Terraform Init
       run: terraform init
-      working-directory: ./terraform-aws-demo
+      working-directory: .
 
     - name: Terraform Plan
       run: terraform plan
-      working-directory: ./terraform-aws-demo
+      working-directory: .
 
     - name: Terraform Apply
       run: terraform apply -auto-approve
