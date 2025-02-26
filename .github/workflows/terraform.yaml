@@ -18,9 +18,11 @@ jobs:
 
     - name: Terraform Init
       run: terraform init
+      working-directory: C:\Users\Vikasdh\Downloads\terraform_1.8.5_windows_amd64\terraform-aws-demo
 
     - name: Terraform Plan
       run: terraform plan
+      working-directory: C:\Users\Vikasdh\Downloads\terraform_1.8.5_windows_amd64\terraform-aws-demo
 
     - name: Terraform Apply
       run: terraform apply -auto-approve
